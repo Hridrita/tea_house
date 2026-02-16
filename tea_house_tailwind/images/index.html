@@ -22,7 +22,7 @@
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <section class ="grid grid-cols-2 container border border-red-500 mx-auto">
+    <section class ="grid grid-cols-1 md:grid-cols-2 container border border-red-500 mx-auto"> <!--medium device e grid 2 hoye thkbe tobe 768 er niche gelei grid 1 hoye jabe-->
         <div class = "banner-left space-y-[30px]">   <!--ekhne space y diye vertically margin add korlm ei div er under e joto attribute ase sob gular upor. noyto alada kore sob gulay margin add kora lagto. space x diye horizontally margin add krte parbo-->
             <h2 class="text-[80px] font-bold"> It's good <br> tea time at The <br> Tea House</h2> <!--thrid bracket e deya value k arvitary value bole-->
 
@@ -36,19 +36,19 @@
 
         </div>
 
-        <div class ="banner-right flex justify-end items-end">
+        <div class ="banner-right flex justify-end items-end relative">
             <img src ="../images/banner.png">
 
-            <div>
-                <img src ="">
-                <h2>5.00</h2>
+            <div class="bg-white rounded-xl shadow-2xl flex justify-center gap-2 items-center w-[220px] absolute bottom-[15px] left-[100px] py-[25px] px-[15px] "> <!--ekhne parent div relative kore then ekhne absoulute kora hoyeche. ta na hole ei div ta thik jayga moto boshbe na.ekhne absulte thkle sey khuje er parent e kicu ache ki na jate tar sapkkhe absoulte change hote pare  -->
+                <img src ="../images/group-5.png">
+
+                <div>
+                    <h2 class="font-bold text-2xl">5.00</h2>
                 <p>Trust Pilot Ratings</p>
 
+                </div>
             </div>
-
-        </div>
-
-        
+        </div>      
     </section>
     
 </body>
