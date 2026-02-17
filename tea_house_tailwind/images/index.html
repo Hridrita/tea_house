@@ -22,7 +22,7 @@
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <section class ="grid grid-cols-1 md:grid-cols-2 container border border-red-500 mx-auto"> <!--medium device e grid 2 hoye thkbe tobe 768 er niche gelei grid 1 hoye jabe-->
+    <section class ="grid grid-cols-1 md:grid-cols-2 container mx-auto"> <!--medium device e grid 2 hoye thkbe tobe 768 er niche gelei grid 1 hoye jabe-->
         <div class = "banner-left space-y-[30px]">   <!--ekhne space y diye vertically margin add korlm ei div er under e joto attribute ase sob gular upor. noyto alada kore sob gulay margin add kora lagto. space x diye horizontally margin add krte parbo-->
             <h2 class="text-[80px] font-bold"> It's good <br> tea time at The <br> Tea House</h2> <!--thrid bracket e deya value k arvitary value bole-->
 
@@ -140,7 +140,7 @@
         </div>
 
         <div class="client-right pl-[100px] relative">
-            <div class="bg-white rounded-lg p-6 w-[433px] absolute left-[40px] top-[100px] z-50">  <!--left value ta k -left-[10px evabeo lekha jabe]-->
+            <div class="bg-white rounded-lg p-6 w-[433px] absolute left-10 top-[100px] z-50">  <!--left value ta k -left-[10px evabeo lekha jabe]-->
                 <p class="text-[#777777]">We are providing the best and suitable home insurance services for the people who are interested to treatment </p>
                 <h2 class="font-bold text-xl"> Ilham Yuda</h2>
                 <h3 class="text-[#777777] font-semibold"> Businessman</h3>
@@ -174,13 +174,52 @@
     </section>
 
     <!--footer section-->
-    <section>
+    <section class="container mx-auto my-[60px]">
         <div class="text-center space-y-7">
             <h2 class="text-[45px] font-bold"> News & Events</h2>
             <p class="text-[#777777FF]">
                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,<br> by injected humour, or randomised words which don't look even slightly believable. 
             </p>
         </div>
+
+        <div class=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 ">  
+            <div class=" border-2 border-gray-200 p-12 rounded-xl space-y-2">
+                <img src="../images/news-1.png"> 
+                <h2 class="text-[#777777] "> Feb 05, 2027</h2>
+                <p class="font-bold">Collecting 8 points for <br> discount</p>
+
+                <p class="text-[#777777]">
+                    There are many variations of passages of  Lorem Ipsum available.
+                </p>
+
+                <h3 class="font-semibold"> Learn More </h3>
+
+                </div>
+
+                
+
+            <div class=" bg-linear-to-b from-[#f4f4f4] to-[#f4f4f400] p-7 text-center rounded-md">
+                <img src="../images/news-2.png" class="mx-auto mb-4">
+                <h2 class="font-semibold text-xl"> Black Tea</h2>
+                <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
+
+            </div>
+
+            <div class="bg-linear-to-b from-[#f4f4f4] to-[#f4f4f400] p-7 text-center rounded-md">
+                <img src="../images/news-3.png" class="mx-auto mb-4">
+                <h2 class="font-semibold text-xl"> Green Tea</h2>
+                <p class="text-[#777777]">Creamer could be replaced by fresh milk</p>
+
+            </div>
+
+        </div>
+
+
+        
+
+        
+
+
     </section>
 
 
